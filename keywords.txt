@@ -1,0 +1,15 @@
+GeneralPurposeI2S_ADC_DAC	KEYWORD1
+transfer	KEYWORD2
+init	KEYWORD2
+Audio_I2S	LITERAL1
+Audio_LeftJustified	LITERAL1
+Audio_RightJustified	LITERAL1
+Audio_MaximumSPIspeed	LITERAL1
+SPIautoRestart	LITERAL1
+LowEnable	LITERAL1
+NotOnSPIpins	LITERAL1
+SignedChannels	LITERAL1
+Channel_SignedIn_0	LITERAL1
+Channel_SignedIn_1	LITERAL1
+Channel_SignedOut_0	LITERAL1
+Channel_SignedOut_1	LITERAL1
