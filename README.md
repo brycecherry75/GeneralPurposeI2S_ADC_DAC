@@ -32,3 +32,5 @@ Blocking of the clock line (required when idle) can be easily implemented by con
 If any of the Clock/Data IN/Data OUT signals are not on SPI hardware pins, set the NotOnSPIpins bool in the library member to true (it is false by default).
 
 To set a channel as signed, OR SignedChannels (none are signed by default) with Channel_Signed(In/Out)_(0/1); to set a channel as unsigned, AND SignedChannels with the inverse of Channel_Signed(In/Out)_(0/1)
+
+Note that certain audio DACs have an "anti-pop" function which will return the DAC output to zero in steps when idle and/or having the same value written for a given number of cycles.
